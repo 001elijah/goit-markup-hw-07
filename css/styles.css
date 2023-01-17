@@ -10,7 +10,7 @@
     --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*--------------------COMMON PAGE STYLES--------------------*/
+/*--------------------RESET BROWSER STYLES--------------------*/
 html {
     box-sizing: border-box;
 }
@@ -70,26 +70,6 @@ video {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.team__title--big {
-    padding-top: 0;
-    margin-bottom: 50px;
-
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    text-transform: unset;
-}
-
-.customers__title--big {
-    padding-top: 0;
-    margin-bottom: 50px;
-
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    text-transform: unset;
 }
 /*--------------------CONTAINER--------------------*/
 .container {
@@ -183,7 +163,7 @@ video {
     height: 4px;
     width: 100%;
 
-    background: #2196F3;
+    background: var(--accent-color);
     border-radius: 2px;
 }
 
