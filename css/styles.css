@@ -80,22 +80,6 @@ video {
     margin-right: auto;
 }
 /*--------------------HEADER--------------------*/
-.header {
-    border-bottom: 1px solid #ececec;
-}
-
-.header__wrap {
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
-
-.header__vavigation {
-    display: flex;
-    margin-right: auto;
-    align-items: center;
-}
-
 .header__logo {
     display: block;
 }
@@ -124,6 +108,22 @@ video {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+}
+
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.header__vavigation {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
 }
 
 .header__nav {
